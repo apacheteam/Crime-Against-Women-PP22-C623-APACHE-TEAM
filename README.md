@@ -7,3 +7,7 @@ Photo by <a href="https://unsplash.com/@mxsh?utm_source=unsplash&utm_medium=refe
   
   
 ...
+Word file created in the folder names ARTICLE
+
+Power point file created in the folder names PPT
+

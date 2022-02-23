@@ -28,32 +28,20 @@ dataset = load_data()
 # Notify the reader that the data was successfully loaded.
 data_load_state.text("Loading data...done! (using st.cache)")
 
-# Start of Data Analysis and Visualizations
+# View dataset checkbox
 if st.checkbox('View raw data'):
     # Inspect the raw data
     st.subheader('Dataset')
     st.write(dataset)
     st.write(dataset.shape)
 
-    # Show rape cases per year
-    st.subheader('Number of rape cases per year')
-    # hist_values = np.histogram(dataset[''])
-    # st.bar_chart(hist_values)
-
-
 
 # Prediction selectbox
-
-#state = st.sidebar.selectbox('Please select a state you\'re interested in:', (unique_states))
-
+# select state
 state = st.sidebar.selectbox(
     'Select a state you\'re interested in: ',
     (unique_states)
 )
 
-#crime = st.sidebar.selectbox('select a crime:', ('rape',
-       #'kidnapping_and_abduction', 'dowry_deaths', 'assault_on_women',
-       #'insult_to_modesty', 'cruelty_by_husband_or_relatives',
-       #'importation_of_girls'))
 
 

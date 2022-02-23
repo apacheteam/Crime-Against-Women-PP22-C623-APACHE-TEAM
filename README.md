@@ -2,7 +2,7 @@
 View model live here: https://share.streamlit.io/tomisile/crime-against-women-pp22-c623-apache-team/apache_app.py
 
 ## 📜 Description
-Analysis of 6 different crimes commited against women in India over the span of 15 years (2001 to 2014). Also contains a machine learning model which predicts the number of crimes that could occur in select states in the future.
+Analysis of 7 different crimes commited against women in India over the span of 15 years (2001 to 2014). Also contains a machine learning model which predicts the number of crimes that could occur in select states in the future.
 
 <img src="https://user-images.githubusercontent.com/75077076/152415838-f7eb48e9-a4fa-4f0a-b184-b9e2ae798792.jpg" height="400" width="650" />
 
@@ -36,6 +36,8 @@ Instances: 10677
  
 ## 🧰 Technologies used
  * Streamlit
+ * Google colab
+ * Google docs
  * Pandas
  * Numpy
  * Matplotlib

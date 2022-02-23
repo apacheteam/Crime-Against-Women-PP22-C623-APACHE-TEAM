@@ -1,4 +1,4 @@
-sr_no,state/ut,district,year,rape,kidnapping_and_abduction,dowry_deaths,assault_on_women,insult_to_modesty,cruelty_by_husband_or_relatives,importation_of_girls
+sr_no,state_ut,district,year,rape,kidnapping_and_abduction,dowry_deaths,assault_on_women,insult_to_modesty,cruelty_by_husband_or_relatives,importation_of_girls
 0,ANDHRA PRADESH,ADILABAD,2001,50,30,16,149,34,175,0
 1,ANDHRA PRADESH,ANANTAPUR,2001,23,30,7,118,24,154,0
 2,ANDHRA PRADESH,CHITTOOR,2001,27,34,14,112,83,186,0

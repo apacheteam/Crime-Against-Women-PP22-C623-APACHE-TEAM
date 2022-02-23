@@ -79,7 +79,10 @@ def state_reg(df, state, crime, year):
 
     # Quad = smf.ols(str(crime) + '~ t+ t_square', data = state_df).fit()
     pred_Quad = polynomial_reg(2, x_train, y_train, yeartopred)
-    return np.round(pred_Quad, 0)
+    if pred_Quad <= 0:
+        return 0
+    else:
+        return int(np.round(pred_Quad, 0))
 
 # Prediction selectbox
 # select state
@@ -103,4 +106,5 @@ year = st.sidebar.selectbox(
 
 # on_click of the PREDICT button
 if st.button('PREDICT'):
-    st.write(state_reg(dataset, state, crime, year))
+    st.write('apache predicts', str(state_reg(dataset, state, crime, year)), crime, 'cases in ', state,
+             'by the year', str(year))

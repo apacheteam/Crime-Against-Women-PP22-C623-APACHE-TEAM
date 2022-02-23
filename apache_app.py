@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import sklearn
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 import warnings

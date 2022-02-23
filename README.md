@@ -45,3 +45,9 @@ Instances: 10677
  * Python
  * Seaborn
 
+## 🔗Links
+Exploratory Data Analysis Notebook on Google colab: https://colab.research.google.com/drive/1Jgsnj-gy3iwxAyWcHG1ihD5CWi_pVtu1?usp=sharing
+Model Training Notebook on Google colab: https://colab.research.google.com/drive/19UKtDU2wMZf7Fm3fCLBa-f1aBtD_wmPl?usp=sharing
+Powerpoint Slides on Google Slides: https://docs.google.com/presentation/d/13_FM56MqOE-nINftVYhIZ7YSQB6A8SRqKolrPJrZvOs/edit?usp=sharing
+Article on Google Docs: https://docs.google.com/document/d/1UGTqcHn-wHky0Ea8o9-rXRZ969yqMUjIJFWAnEwMfC4/edit?usp=sharing
+Streamlit app (deployed model): https://share.streamlit.io/tomisile/crime-against-women-pp22-c623-apache-team/apache_app.py

@@ -19,9 +19,6 @@ def load_data():
     data = pd.read_csv(data_url)
     return data
 
-# Let the reader know the data is loading.
-data_load_state = st.text('Loading data...')
-
 # Load data
 dataset = load_data()
 

@@ -25,9 +25,6 @@ data_load_state = st.text('Loading data...')
 # Load data
 dataset = load_data()
 
-# Notify the reader that the data was successfully loaded.
-data_load_state.text("Loading data...done! (using st.cache)")
-
 # View dataset checkbox
 if st.checkbox('View raw data'):
     # Inspect the raw data
